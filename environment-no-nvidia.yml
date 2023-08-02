@@ -7,7 +7,6 @@ dependencies:
   - numpy>=1.25
   - click>=8.0
   - pillow=9.4.0
-  - scipy=1.11.0
   - pytorch>=2.0.1
   - torchvision>=0.15.2
   - requests=2.26.0
@@ -16,6 +15,7 @@ dependencies:
   - matplotlib=3.4.2
   - imageio=2.9.0
   - pip:
+    - scipy==1.11.0
     - imgui==2.0.0
     - glfw==2.6.1
     - gradio==3.35.2
